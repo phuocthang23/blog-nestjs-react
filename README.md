@@ -45,6 +45,20 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running migrations
+
+````bash
+# create a migration
+$ npm run migration:generate --src/database/migrations/TableName
+
+# run migrations
+$ npm run migration:run
+
+# revert migration
+$ npm run migration:revert
+
+
+
 ## Test
 
 ```bash
@@ -56,7 +70,7 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
-```
+````
 
 ## Support
 
